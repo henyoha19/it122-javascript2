@@ -12,9 +12,9 @@ http.createServer((req,res) => {
 
     case '/about':
       res.writeHead(200, {'Content-Type': 'text/plain'});
-      res.end('About page \n' + 'this is about my page');
+      res.end('About page \n' + 'this is all about my page');
       break;
-      
+
     default:
       res.writeHead(404, {'Content-Type': 'text/plain'});
       res.end('Page Not found');
